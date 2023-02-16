@@ -1,0 +1,279 @@
+@media screen
+ {
+    *
+    {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+   /*------------------------All------------------------*/
+    head
+    {
+        max-width:1350px;
+    }
+   /*---------------------body----------------------*/
+ 
+
+    body
+    {
+        margin: 240px auto 0px;
+        max-height: max-content;
+        max-width:1350px;
+        padding: 0;
+        text-align: center;
+        font-size: 100%;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: rgb(143, 41, 143);
+        background-repeat: no-repeat;
+        background-image:url(/yusuf_work/photos/white.jpg);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-attachment: fixed;
+        size-adjust: 70%;
+        direction: unset;
+        display:flexbox;
+    }
+    /*----------random------------*/
+
+    div
+    {
+        margin: 30px;
+        padding: 20px;
+        perspective: auto;
+    }
+
+    a
+    {
+        text-decoration-line :none ;
+        
+    }
+
+    a:-webkit-any-link 
+    {
+        text-decoration-line: none;
+    }
+
+    a:hover
+    {
+    text-decoration-line: underline;
+    }    
+
+    .headlines
+    {
+        text-align: center;
+        background-color:rgba(255, 255, 255, 0.89);   
+        font-size: 110%;
+        text-align-last: auto;
+    }
+    
+    
+    h4
+    {
+        font-style: bold;
+        font-size: larger;
+        font-size: 130%;
+    }
+    
+    h2, h3, h4
+    {
+        padding: 10px;
+        margin: 0;
+    }
+    
+    
+
+    .back22
+    {
+        background-color: #ffffffce;
+        text-align: center;  
+        font-size: 110%;
+        text-align-last: auto;
+        box-shadow:5px 5px 10px rgba(29, 53, 58, 0.267) ,
+                -5px 5px 10px rgba(29, 53, 58, 0.267) ;
+        border-radius: 5px;
+    }
+     
+    /*------------------head-------------*/
+
+    .headtitle
+    {
+        text-align: center;
+        background-color:rgb(255, 255, 255);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: contain;
+        font-style: italic;
+        box-shadow:0px 10px 10px rgba(29, 53, 58, 0.267) ;
+        padding: 50px;
+        position: fixed;
+        justify-content:center;
+        margin: -240px auto 0px ;
+        max-width:1350px;
+        z-index: 2;
+        min-width: min-content;
+        width: 100%;
+    
+    }
+
+    .headimg
+    {
+        width: 60%;
+    }
+    /*-----------------------headbar---------*/
+    .headbarf
+    {
+        color: #ffffff;
+        background-color: #ffffffbe;
+        position:sticky ;
+        max-width: 1350;
+        min-width: 900px    ;
+        margin: -30px 5px 30px 5px ;
+        max-height: min-content;
+        justify-content: space-between;
+        padding: 0px 100px 25px ;
+        z-index: 1;
+        justify-content:space-between;
+        opacity: .9;
+        overflow: visible;
+        display: flex;
+    }
+    
+    .barimg
+    {
+      
+      max-width: 100px;
+      max-height: 100px;
+      margin: auto;
+      padding: 0px 20px;
+    }
+    .headbarf > a :hover
+    {
+        overflow: visible;
+        transform: translate3d(0px,-5px,20px);
+        scale: 1.1 ;
+        text-decoration-line: none;
+    }
+
+    /*------------first div------------------*/
+    .one
+    {
+        font-size: 100%;
+        background-attachment: fixed;
+        background-image: url(/YUSUF_WORK/photos/11062b_a38017623d9c48bc8f086339a40b2d66_mv2.webp);
+        background-repeat:no-repeat;
+        background-position: 50% 15%;
+        background-size: 1500px 1500px;
+        padding-bottom: 30px;
+        padding-top:100px ;
+        padding-bottom: 100px; 
+        margin: -15px 0px 50px 0px ;
+                    
+        
+    }
+    .one > div
+    {
+        box-shadow:5px 5px 10px rgba(29, 53, 58, 0.267),
+                   5px 5px 10px rgba(29, 53, 58, 0.267);
+    } 
+    
+    /*----------------- div at middlle of page ---------------*/
+      
+    .west
+    {
+        text-align: center;
+        background-color:rgba(255, 255, 255, 0.562);   
+        font-size: 130%;
+        text-align-last: auto;
+        padding: 0px;
+        border-radius: 10px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .west .back22
+    {
+        margin: 0px;
+    }
+    
+    .collages
+    {
+        color:rgba(48,194,224,255) ;
+        text-decoration-line:underline;
+    }
+    /*------------------second div -----------------------*/
+    .two
+    {
+        font-size: 85%;
+        background-attachment: fixed;
+        background-image: url("/yusuf_work/photos/online-shopping-4k-modern-technology-payment-online-e-commerce.jpg"); 
+        background-repeat:no-repeat;
+        background-position: 50% 40%;
+        background-size: 100% 100%;
+        padding: 20px 20px 100px;
+        margin: 30px 0px 50px 0px ;
+
+    }
+    .two .back22
+    {
+
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
+    /*------------------work time div-------------*/
+    .worktime
+    {
+        background-attachment: fixed;
+        background-image:url(/yusuf_work/photos/head.jpg);
+        background-repeat:no-repeat;
+        background-position: 50% 75%;
+        background-size: 1496px 250px;
+        background-clip: padding-box;
+        margin: 30px;
+        padding: 20px;
+    }
+    
+    /*--------bottom bar div ------------------*/
+
+    .bottombar
+    {
+        border-radius: 50px;
+        text-align: center;
+        font-size: 110%;
+        text-align-last: auto;
+        background-color:rgb(255, 255, 255);
+        perspective: auto;
+        margin: 30px;
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+
+    .barimgg
+    {
+        max-width: 70px;
+    
+    }
+
+    .bottombar > a :hover
+    {
+        overflow: visible;
+        transform: translate3d(0px,-5,-20px);
+        scale: .9 ;
+        text-decoration-line: none;
+    } 
+    /*-------------------------------------------------------*/
+   
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+
+    
+    
